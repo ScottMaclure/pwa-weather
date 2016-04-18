@@ -1,0 +1,15 @@
+{
+  "name": "pwa-weather",
+  "version": "1.0.0",
+  "description": "Google's Progress Web App tutorial.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/ws --key ws.key --cert ws.crt --verbose -d public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Maclure <scott@maclure.com.au>",
+  "license": "MIT",
+  "devDependencies": {
+    "local-web-server": "^1.2.2"
+  }
+}
