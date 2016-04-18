@@ -2,7 +2,7 @@
 // TODO Find API for caches/cache
 
 // Bump ths cache name every time you deploy the serviceWorker OR assets.
-var cacheName = 'pwa-weather-assets-v14';
+var cacheName = 'pwa-weather-assets-v15';
 var dataCacheName = 'pwa-weather-data-v4';
 
 var dataUrl = 'https://publicdata-weather.firebaseio.com/';
